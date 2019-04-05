@@ -1,0 +1,115 @@
+@import "custom";
+@import '../../node_modules/bulma/bulma.sass';
+
+.blog-content{
+  margin:25px auto;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.navbar-item img {
+  max-height: 42px;
+  // margin-top: 5px;
+}
+
+.first_button {
+  margin-right: 15px;
+}
+.hero-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    .title{
+      font-size: 2.5rem;
+    }
+    .subtitle{
+      font-size: 1.75rem;
+    }
+  };
+
+#laptop_image {
+  margin-top: 50px;
+  margin-bottom: -15px;
+  padding-bottom: 0;
+}
+
+#laptop_image_img {
+  max-height: 450px;
+}
+
+#jumbotron {
+  background: url('../images/wave.svg') no-repeat bottom center ;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  // padding-top: 150px;
+}
+
+#about .container{
+  padding-top: 35px;
+}
+.title{  
+    margin-bottom: 10px;
+}
+.card-content{
+    padding-left: 0px;
+}
+
+.shadowed{
+  box-shadow:  0 2px 2px 0 rgba(0,0,0,.14), 0 1px 5px 0 rgba(0,0,0,.12), 0 3px 1px -2px rgba(0,0,0,.2);
+}
+.card{
+  border-radius: 5px;
+  box-shadow: 0px 2px 18px 0px rgba(0,0,0,0.3);
+  padding: 1em;
+}
+.content ul {
+  list-style: none;
+  margin-left: 0;
+  margin-top: 1em;
+}
+
+li {
+  border-top: 1px solid rgba(0, 0, 0, .125);
+  padding: 5px;
+}
+
+#dots-section {
+  background-image: url("../images/subtle_dots.png");
+  background-repeat: repeat;
+}
+
+#hero-image{
+  margin-top: 75px;
+}
+
+.is-fixed-top{
+      -webkit-animation: fadein .25s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein .25s; /* Firefox < 16 */
+        -ms-animation: fadein .25s; /* Internet Explorer */
+         -o-animation: fadein .25s; /* Opera < 12.1 */
+            animation: fadein .25s;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+  @media only screen and (max-width: 1087px) {
+    .container{
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+  }
+
+  @media only screen and (max-width: 797px) {
+        .container {
+          padding-left: 10px;
+          padding-right: 10px;
+        }
+  }

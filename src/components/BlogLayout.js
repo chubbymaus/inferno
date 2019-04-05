@@ -2,10 +2,9 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import { StaticQuery, graphql } from 'gatsby'
-import './styles.scss'
 import {
   library,
-  
+ 
 } from '@fortawesome/fontawesome-svg-core'
 import {fab} from '@fortawesome/free-brands-svg-icons'
 import {
@@ -15,12 +14,13 @@ import {
 import Navbar from './Navbar'
 import Footer from './Footer'
 
+import './styles.scss'
 library.add(far, fab)
 
-const Layout = ({ children }) => (
+const BlogLayout = ({ children }) => (
   <StaticQuery
     query={graphql`
-      query SiteTitleQuery {
+      query PostExcerptQuery {
         site {
           siteMetadata {
             title
@@ -41,8 +41,10 @@ const Layout = ({ children }) => (
         </Helmet>
         <Navbar />
  
-        <div className="main-content">
+        <div className="blog-content container is-fluid">
+          <div className="">
           {children}
+          </div>
         </div>
         <Footer />
       </>
@@ -50,8 +52,8 @@ const Layout = ({ children }) => (
   />
 )
 
-Layout.propTypes = {
+BlogLayout.propTypes = {
   children: PropTypes.node.isRequired,
 }
 
-export default Layout
+export default BlogLayout
