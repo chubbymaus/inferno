@@ -79,6 +79,12 @@ class Navbar extends Component {
                                     </a>
                                 </div>
                                 <div className="navbar-item">
+                                    <Link to="/wordpress" className="button is-fullwidth is-info has-text-white shadowed">
+                                        Wordpress Sites
+                                    </Link>
+                                </div>
+
+                                <div className="navbar-item">
                                     <a href="#contact" className="button is-fullwidth is-success has-text-white shadowed">
                                         Say Hello
                                     </a>
