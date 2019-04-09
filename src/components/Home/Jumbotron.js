@@ -8,9 +8,11 @@ const ButtonGroup = styled.div`
     display: flex;
     flex-direction: row;
     justify-content:flex-start;
+    
 
     @media only screen and (max-width: 600px){
       flex-direction: column;
+      width: 100%;
     }
 `;
 const JumboContainer = styled.div`
@@ -47,8 +49,9 @@ const Jumbotron = () => (
                             Collaborate, store, and share faster, safer, and more transparently
                         </h2>
                         <ButtonGroup>
-                        <a href="#about"><div className="is-info jumbotron-button button first_button shadowed is-medium"> Learn More</div></a>
-                        <Link to="/contact"><div className="is-success shadowed jumbotron-button button is-medium">Contact Us</div></Link>
+                        <a href="#about"><div className="is-info jumbotron-button button first_button shadowed is-medium is-fullwidth"> Learn More</div></a>
+                        <div>&nbsp;&nbsp;</div>
+                        <Link to="/contact"><div className="is-success shadowed jumbotron-button button is-medium is-fullwidth">Contact Us</div></Link>
                         </ButtonGroup>
                     </div>
                     <div className="is-half has-text-right" id="hero-image">
