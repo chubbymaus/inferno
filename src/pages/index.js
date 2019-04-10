@@ -18,7 +18,7 @@ const IndexPage = () => (
   <Layout>
     <Jumbotron />
     <About />
-    <LaptopMockup />
+    {/* <LaptopMockup /> */}
     <Contact />
   </Layout>
 )

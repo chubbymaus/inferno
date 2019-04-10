@@ -17,7 +17,7 @@ const Container = styled.div`
 
 const Jumbotron = () => (
 
-    <section className="hero has-background-link is-medium is-bold" >
+    <section className="hero has-background-info is-medium is-bold" >
             <div className="container">
                 <Container>
                  <Fade left>

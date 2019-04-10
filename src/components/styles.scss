@@ -41,12 +41,20 @@ html {
 }
 
 #jumbotron {
-  background: url('../images/SVG/wave4.svg') no-repeat bottom center ;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  background: url('../images/SVG/wave3.svg') no-repeat bottom center ;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
   // padding-top: 150px;
+}
+#laptop_section {
+  background: url('../images/SVG/wave8.svg') no-repeat top center ;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+   padding-top: 150px;
 }
 
 #about .container{
