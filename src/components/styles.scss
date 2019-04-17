@@ -1,8 +1,8 @@
 @import "custom";
 @import '../../node_modules/bulma/bulma.sass';
 
-.blog-content{
-  margin:25px auto;
+.blog-content {
+  margin: 25px auto;
 }
 
 html {
@@ -17,18 +17,22 @@ html {
 .first_button {
   margin-right: 15px;
 }
-.hero-text{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
 
-    .title{
-      font-size: 2.5rem;
-    }
-    .subtitle{
-      font-size: 1.75rem;
-    }
-  };
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  .title {
+    font-size: 2.5rem;
+  }
+
+  .subtitle {
+    font-size: 1.75rem;
+  }
+}
+
+;
 
 #laptop_image {
   margin-top: 50px;
@@ -41,40 +45,45 @@ html {
 }
 
 #jumbotron {
-  background: url('../images/SVG/wave3.svg') no-repeat bottom center ;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+  background: url('../images/SVG/wave3.svg') no-repeat bottom center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   // padding-top: 150px;
 }
+
 #laptop_section {
-  background: url('../images/SVG/wave8.svg') no-repeat top center ;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-   padding-top: 150px;
+  background: url('../images/SVG/wave8.svg') no-repeat top center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-top: 150px;
 }
 
-#about .container{
+#about .container {
   padding-top: 35px;
 }
-.title{  
-    margin-bottom: 10px;
-}
-.card-content{
-    padding-left: 0px;
+
+.title {
+  margin-bottom: 10px;
 }
 
-.shadowed{
-  box-shadow:  0 2px 2px 0 rgba(0,0,0,.14), 0 1px 5px 0 rgba(0,0,0,.12), 0 3px 1px -2px rgba(0,0,0,.2);
+.card-content {
+  padding-left: 0px;
 }
-.card{
+
+.shadowed {
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .14), 0 1px 5px 0 rgba(0, 0, 0, .12), 0 3px 1px -2px rgba(0, 0, 0, .2);
+}
+
+.card {
   border-radius: 5px;
-  box-shadow: 0px 2px 18px 0px rgba(0,0,0,0.3);
+  box-shadow: 0px 2px 18px 0px rgba(0, 0, 0, 0.3);
   padding: 1em;
 }
+
 .content ul {
   list-style: none;
   margin-left: 0;
@@ -91,33 +100,42 @@ li {
   background-repeat: repeat;
 }
 
-#hero-image{
+#hero-image {
   margin-top: 75px;
 }
 
-.is-fixed-top{
-      -webkit-animation: fadein .25s; /* Safari, Chrome and Opera > 12.1 */
-       -moz-animation: fadein .25s; /* Firefox < 16 */
-        -ms-animation: fadein .25s; /* Internet Explorer */
-         -o-animation: fadein .25s; /* Opera < 12.1 */
-            animation: fadein .25s;
+.is-fixed-top {
+  -webkit-animation: fadein .25s;
+  /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein .25s;
+  /* Firefox < 16 */
+  -ms-animation: fadein .25s;
+  /* Internet Explorer */
+  -o-animation: fadein .25s;
+  /* Opera < 12.1 */
+  animation: fadein .25s;
 }
 
 @keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
 }
 
-  @media only screen and (max-width: 1087px) {
-    .container{
-      padding-left: 10px;
-      padding-right: 10px;
-    }
+@media only screen and (max-width: 1087px) {
+  .container {
+    padding-left: 10px;
+    padding-right: 10px;
   }
+}
 
-  @media only screen and (max-width: 797px) {
-        .container {
-          padding-left: 10px;
-          padding-right: 10px;
-        }
+@media only screen and (max-width: 797px) {
+  .container {
+    padding-left: 10px;
+    padding-right: 10px;
   }
+}

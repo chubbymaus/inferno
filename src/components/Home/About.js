@@ -1,4 +1,5 @@
 import React from 'react'
+import Mockups from '../../images/infernomockups.png';
 import {
     FontAwesomeIcon
 } from '@fortawesome/react-fontawesome'
@@ -99,7 +100,15 @@ const About = () => (
                     </div>
                 
                 </div>
+                <div className="columns features">
+                    <div className="column is-half">
 
+                        
+                    </div>
+                    <div className="column is-half">
+                        <img src={Mockups} alt="Hero"  />
+                    </div>
+                   </div>
  
             </div>
         </div>
