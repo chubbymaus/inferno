@@ -75,13 +75,23 @@ html {
 }
 
 .shadowed {
-  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .14), 0 1px 5px 0 rgba(0, 0, 0, .12), 0 3px 1px -2px rgba(0, 0, 0, .2);
+  box-shadow: 0 2px 12px -1px rgba(0, 0, 0, 0.2);
 }
 
 .card {
   border-radius: 5px;
-  box-shadow: 0px 2px 18px 0px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 2px 12px -1px rgba(0, 0, 0, 0.2);
   padding: 1em;
+}
+
+#wp-jumbo {
+  background: rgb(3, 169, 244);
+  background: linear-gradient(90deg, rgba(3, 169, 244, 1) 50%, rgba(255, 255, 255, 1) 50%);
+}
+
+#infernotuts {
+  background: rgb(255, 94, 94);
+  background: linear-gradient(90deg, rgb(255, 255, 255) 50%, rgb(255, 94, 94) 50%);
 }
 
 .content ul {

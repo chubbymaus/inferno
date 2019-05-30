@@ -73,9 +73,9 @@ class Navbar extends Component {
             >
               <div className="navbar-end is-primary">
                 <div className="navbar-item">
-                  <a href="#about" className="has-text-primary">
-                    About
-                  </a>
+                  <Link to="/" className="has-text-primary">
+                    Home
+                  </Link>
                 </div>
                 <div className="navbar-item">
                   <Link to="/blog" className="has-text-primary">
@@ -87,7 +87,7 @@ class Navbar extends Component {
                     to="/wordpress"
                     className="button is-fullwidth is-info has-text-white shadowed"
                   >
-                    Wordpress Sites
+                    Wordpress
                   </Link>
                 </div>
 

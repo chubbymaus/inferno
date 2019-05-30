@@ -2,11 +2,11 @@ import React from "react"
 // import { Link } from 'gatsby'
 
 import Layout from "../components/layout"
-import Jumbotron from "../components/Home/Jumbotron"
+import Jumbotron from "../components/Wordpress/Jumbotron"
+import WhyWordpress from "../components/Wordpress/WhyWordpress"
+import InfernoTuts from "../components/Wordpress/InfernoTuts"
 import Services from "../components/Wordpress/Services"
 import Contact from "../components/Home/Contact"
-
-import About from "../components/Home/About"
 
 // if (typeof window !== 'undefined') {
 //   // Make scroll behavior of internal links smooth
@@ -16,6 +16,8 @@ import About from "../components/Home/About"
 const IndexPage = () => (
   <Layout>
     <Jumbotron />
+    <WhyWordpress />
+    <InfernoTuts />
     <Services />
     <Contact />
   </Layout>

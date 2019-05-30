@@ -25,26 +25,21 @@ const JumboContainer = styled.div`
 `
 
 const Jumbotron = () => (
-  <section
-    className="hero has-background-white is-fullheight is-bold"
-    id="jumbotron"
-  >
+  <section className="hero has-background-white is-fullheight is-bold">
     <div className="container is-fluid has-text-left">
       <JumboContainer>
         <div className="is-half hero-text">
           <h1 className="title has-text-primary has-text-weight-bold">
+            Managing a website can be: <br />
             <Typed
-              strings={[
-                "Design Your Brand",
-                "Develop The App",
-                "Launch Your New Site",
-              ]}
+              strings={["DIFFICULT", "TIME CONSUMING", "FRUSTRATING"]}
               typeSpeed={60}
               backSpeed={60}
             />
           </h1>
           <h2 className="has-text-weight-light subtitle has-text-primary">
-            Collaborate, store, and share faster, safer, and more transparently
+            A Wordpress site built and hosted by Inferno makes everything
+            easier.
           </h2>
           <ButtonGroup>
             <a href="#about">

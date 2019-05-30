@@ -3,7 +3,7 @@ import Link from "gatsby-link"
 import styled from "styled-components"
 import HeroImage from "../../images/computers.png"
 import Typed from "react-typed"
-
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 const ButtonGroup = styled.div`
   display: flex;
   flex-direction: row;
@@ -17,7 +17,7 @@ const ButtonGroup = styled.div`
 const JumboContainer = styled.div`
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-between;
   align-content: center;
   @media only screen and (max-width: 600px) {
     flex-direction: column;
@@ -26,25 +26,20 @@ const JumboContainer = styled.div`
 
 const Jumbotron = () => (
   <section
-    className="hero has-background-white is-fullheight is-bold"
-    id="jumbotron"
+    className="hero has-background-white is-large is-bold"
+    id="infernotuts"
   >
     <div className="container is-fluid has-text-left">
-      <JumboContainer>
-        <div className="is-half hero-text">
+      <JumboContainer class="columns">
+        <div className="column is-half hero-text">
           <h1 className="title has-text-primary has-text-weight-bold">
-            <Typed
-              strings={[
-                "Design Your Brand",
-                "Develop The App",
-                "Launch Your New Site",
-              ]}
-              typeSpeed={60}
-              backSpeed={60}
-            />
+            InfernoTuts
           </h1>
           <h2 className="has-text-weight-light subtitle has-text-primary">
-            Collaborate, store, and share faster, safer, and more transparently
+            Wordpress powers over 30% of all websites. Wordpress powers over 30%
+            of all websites. Wordpress powers over 30% of all websites.
+            Wordpress powers over 30% of all websites. Wordpress powers over 30%
+            of all websites.
           </h2>
           <ButtonGroup>
             <a href="#about">
@@ -60,8 +55,12 @@ const Jumbotron = () => (
             </Link>
           </ButtonGroup>
         </div>
-        <div className="is-half has-text-right" id="hero-image">
-          <img src={HeroImage} alt="Hero" />
+        <div className="column is-half" id="hero-image">
+          <FontAwesomeIcon
+            style={{ fontSize: "15rem" }}
+            icon={["fab", "wordpress-simple"]}
+            className="has-text-white"
+          />
         </div>
       </JumboContainer>
     </div>
