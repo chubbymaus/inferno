@@ -61,6 +61,41 @@ const Jumbotron = () => (
         </div>
       </JumboContainer>
     </div>
+    <div className="container is-fluid has-text-left">
+      <JumboContainer class="columns">
+        <div className="column is-half hero-text">
+          <h1 className="title has-text-primary has-text-weight-bold">
+            InfernoTuts
+          </h1>
+          <h2 className="has-text-weight-light subtitle has-text-primary">
+            Wordpress powers over 30% of all websites. Wordpress powers over 30%
+            of all websites. Wordpress powers over 30% of all websites.
+            Wordpress powers over 30% of all websites. Wordpress powers over 30%
+            of all websites.
+          </h2>
+          <ButtonGroup>
+            <a href="#about">
+              <div className="is-info jumbotron-button button first_button shadowed is-medium is-fullwidth">
+                Learn More
+              </div>
+            </a>
+            <div>&nbsp;&nbsp;</div>
+            <Link to="/contact">
+              <div className="is-success shadowed jumbotron-button button is-medium is-fullwidth">
+                Contact Us
+              </div>
+            </Link>
+          </ButtonGroup>
+        </div>
+        <div className="column is-half" id="hero-image">
+          <FontAwesomeIcon
+            style={{ fontSize: "15rem" }}
+            icon={["fab", "wordpress-simple"]}
+            className="has-text-white"
+          />
+        </div>
+      </JumboContainer>
+    </div>
   </section>
 )
 

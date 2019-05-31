@@ -80,57 +80,6 @@ const About = () => (
             </div>
           </div>
         </div>
-        <div className="columns">
-          <div className="column is-half">
-            <div className="card has-background-white">
-              <div className="card-content has-text-primary">
-                <div className="title has-text-primary">
-                  <FontAwesomeIcon
-                    style={{ fontSize: "2.5rem" }}
-                    icon={["far", "comments"]}
-                  />
-                  &nbsp; Development
-                </div>
-                <hr />
-                <div className="content">
-                  <p>
-                    Everything your team needs to collaborate in one secure
-                    place. Chat, share and store files with the security you
-                    need
-                  </p>
-                  <ul>
-                    <li>Chat/File Sharing</li>
-                    <li>App Integration</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="column is-half">
-            <div className="card shadowed has-background-white">
-              <div className="card-content has-text-primary">
-                <div className="title has-text-primary">
-                  <FontAwesomeIcon
-                    style={{ fontSize: "2.5rem" }}
-                    icon={["far", "exchange"]}
-                  />
-                  &nbsp; Strategy
-                </div>
-                <hr />
-                <div className="content">
-                  <p>
-                    Reduce reliance on trusted intermediaries and lower
-                    transaction costs.
-                  </p>
-                  <ul>
-                    <li>Smart Contracts</li>
-                    <li>Smart Contracts</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
       </div>
     </div>
   </div>
