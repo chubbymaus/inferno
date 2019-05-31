@@ -72,6 +72,14 @@ const Contact = () => (
                     <li>Chat/File Sharing</li>
                     <li>App Integration</li>
                   </ul>
+                  <div className="navbar-tem">
+                    <Link
+                      to="/contact"
+                      className="button is-fullwidth is-success has-text-white shadowed"
+                    >
+                      Say Hello
+                    </Link>
+                  </div>
                 </div>
               </div>
             </div>
@@ -97,6 +105,14 @@ const Contact = () => (
                     <li>Smart Contracts</li>
                     <li>Smart Contracts</li>
                   </ul>
+                  <div className="navbar-tem">
+                    <Link
+                      to="/contact"
+                      className="button is-fullwidth is-success has-text-white shadowed"
+                    >
+                      Say Hello
+                    </Link>
+                  </div>
                 </div>
               </div>
             </div>
@@ -112,7 +128,7 @@ const Contact = () => (
                     icon={["far", "server"]}
                     className="has-text-link"
                   />
-                  &nbsp; Hosting
+                  &nbsp; Custom Development
                 </div>
                 <hr />
                 <div className="content">
