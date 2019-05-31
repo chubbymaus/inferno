@@ -59,7 +59,7 @@ html {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  padding-top: 150px;
+  padding-top: 50px;
 }
 
 #about .container {
@@ -70,9 +70,7 @@ html {
   margin-bottom: 10px;
 }
 
-.card-content {
-  padding-left: 0px;
-}
+.card-content {}
 
 .shadowed {
   box-shadow: 0 2px 12px -1px rgba(0, 0, 0, 0.2);
@@ -81,7 +79,8 @@ html {
 .card {
   border-radius: 5px;
   box-shadow: 0 2px 12px -1px rgba(0, 0, 0, 0.2);
-  padding: 1em;
+  padding: 1em .35em;
+
 }
 
 #wp-jumbo {

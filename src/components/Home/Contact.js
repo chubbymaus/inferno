@@ -1,5 +1,6 @@
 import React from "react"
 import Mockups from "../../images/infernomockups.png"
+import Link from "gatsby-link"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 
 const Contact = () => (
@@ -36,6 +37,15 @@ const Contact = () => (
                     <li>Chat/File Sharing</li>
                     <li>App Integration</li>
                   </ul>
+
+                  <div className="navbar-tem">
+                    <Link
+                      to="/contact"
+                      className="button is-fullwidth is-success has-text-white shadowed"
+                    >
+                      Say Hello
+                    </Link>
+                  </div>
                 </div>
               </div>
             </div>
