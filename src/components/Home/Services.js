@@ -3,9 +3,9 @@ import Mockups from "../../images/infernomockups.png"
 import Link from "gatsby-link"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 
-const Contact = () => (
+const Services = () => (
   <div className="is-fullheight" id="dots-section">
-    <div className="about-wrapper has-background-lnk" id="laptop_section">
+    <div className="about-wrapper has-background-lnk" id="services_section">
       <div className="container is-fluid">
         <h1 className="title is-center has-text-white has-text-weight-bold has-text-centered">
           WHAT WE DO
@@ -151,4 +151,4 @@ const Contact = () => (
   </div>
 )
 
-export default Contact
+export default Services

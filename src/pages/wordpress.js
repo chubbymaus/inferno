@@ -7,7 +7,6 @@ import WhyWordpress from "../components/Wordpress/WhyWordpress"
 import InfernoTuts from "../components/Wordpress/InfernoTuts"
 import Hosting from "../components/Wordpress/Hosting"
 import Services from "../components/Wordpress/Services"
-import Contact from "../components/Home/Contact"
 
 // if (typeof window !== 'undefined') {
 //   // Make scroll behavior of internal links smooth
@@ -21,7 +20,6 @@ const IndexPage = () => (
     <InfernoTuts />
     <Hosting />
     <Services />
-    <Contact />
   </Layout>
 )
 

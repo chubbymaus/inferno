@@ -4,7 +4,7 @@ import React from "react"
 import Layout from "../components/layout"
 import Jumbotron from "../components/Home/Jumbotron"
 import WhyWordpress from "../components/Home/WhyWordpress"
-import Contact from "../components/Home/Contact"
+import Services from "../components/Home/Services"
 import Hosting from "../components/Home/Hosting"
 import About from "../components/Home/About"
 
@@ -20,7 +20,7 @@ const IndexPage = () => (
     <About />
     <Hosting />
     {/* <LaptopMockup /> */}
-    <Contact />
+    <Services />
   </Layout>
 )
 
