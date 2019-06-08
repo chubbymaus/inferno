@@ -82,14 +82,14 @@ class Navbar extends Component {
                     Blog
                   </Link>
                 </div>
-                {/* <div className="navbar-item">
+                <div className="navbar-item">
                   <Link
                     to="/wordpress"
                     className="button is-fullwidth is-info has-text-white shadowed"
                   >
                     Wordpress
                   </Link>
-                </div> */}
+                </div>
 
                 <div className="navbar-item">
                   <Link
