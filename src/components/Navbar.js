@@ -96,7 +96,7 @@ class Navbar extends Component {
                     to="/contact"
                     className="button is-fullwidth is-success has-text-white shadowed"
                   >
-                    Say Hello
+                    Say Hello...
                   </Link>
                 </div>
               </div>
