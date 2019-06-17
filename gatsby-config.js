@@ -25,8 +25,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: "gatsby-starter-default",
-        short_name: "starter",
+        name: "Inferno apps",
+        short_name: "Inferno",
         start_url: "/",
         background_color: "#663399",
         theme_color: "#663399",
