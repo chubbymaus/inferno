@@ -97,9 +97,6 @@ const ContactPage = () => (
                             />
                           </div>
                         </div>
-                        
-                          
-                        </div>
 
                         <div className="field">
                           <div className="control">
