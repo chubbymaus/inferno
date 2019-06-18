@@ -97,37 +97,8 @@ const ContactPage = () => (
                             />
                           </div>
                         </div>
-                        <div className="field ">
-                          <div className="control is-expanded">
-                            <label className="label">Department</label>
-                            <div className="select">
-                              <select name="department">
-                                <option>CEO</option>
-                                <option>Customer Support</option>
-                                <option>Engineering</option>
-                                <option>Finance</option>
-                                <option>Human Resources</option>
-                                <option>IT</option>
-                                <option>Marketing</option>
-                                <option>Sales & Business Development</option>
-                                <option>Operations</option>
-                                <option>Other</option>
-                              </select>
-                            </div>
-                          </div>
-                          <div className="control is-expanded">
-                            <label className="label">Company Size</label>
-                            <div className="select">
-                              <select name="companySize">
-                                <option>5000+</option>
-                                <option>1000-4999</option>
-                                <option>500-999</option>
-                                <option>100-499</option>
-                                <option>50-99</option>
-                                <option>1-49</option>
-                              </select>
-                            </div>
-                          </div>
+                        
+                          
                         </div>
 
                         <div className="field">
