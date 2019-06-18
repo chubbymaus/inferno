@@ -29,7 +29,7 @@ const ContactPage = () => (
               <div className="columns">
                 <HeroText className="column is-half">
                   <h1 className="title has-text-primary">
-                    See how Squibly works.
+                    Start your new site today!
                   </h1>
                   <h2 className="subtitle has-text-primary">
                     See the future of business collaboration and how it can make
@@ -40,7 +40,7 @@ const ContactPage = () => (
                   <div className="card shadowed">
                     <div className="card-content">
                       <h1 className="title has-text-primary">
-                        See how Squibly works.
+                        See how Inferno works.
                       </h1>
                       <form
                         name="contact"
