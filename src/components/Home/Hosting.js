@@ -16,7 +16,7 @@ const Hosting = () => (
                     icon={["far", "server"]}
                     className="has-text-link"
                   />
-                  &nbsp; Hosting
+                  &nbsp; Hosting, SSL, CDN
                 </div>
                 <hr />
                 <div className="content">
