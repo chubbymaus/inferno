@@ -10,8 +10,12 @@ html {
 }
 
 .navbar-item img {
-  max-height: 42px;
-  // margin-top: 5px;
+  max-height: 45px;
+  margin-top: 5px;
+}
+
+.navbar-item {
+  padding: 0 12px;
 }
 
 .first_button {
