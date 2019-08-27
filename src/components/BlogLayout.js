@@ -6,7 +6,7 @@ import { library } from "@fortawesome/fontawesome-svg-core"
 import { fab } from "@fortawesome/free-brands-svg-icons"
 import { far } from "@fortawesome/pro-regular-svg-icons"
 
-import Navbar from "./Navbar"
+import Navbar from "./AltNavbar"
 import Footer from "./Footer"
 
 import "./styles.scss"

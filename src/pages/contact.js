@@ -1,7 +1,7 @@
 import React from "react"
 // import { Link } from 'gatsby'
 
-import Layout from "../components/layout"
+import BlogLayout from "../components/BlogLayout"
 
 import styled from "styled-components"
 
@@ -20,7 +20,7 @@ const HeroText = styled.div`
 `
 
 const ContactPage = () => (
-  <Layout>
+  <BlogLayout>
     <div id="contact-container">
       <RequestWrapper className="container is-fluid">
         <section className="hero is-fullheight">
@@ -128,7 +128,7 @@ const ContactPage = () => (
         </section>
       </RequestWrapper>
     </div>
-  </Layout>
+  </BlogLayout>
 )
 
 export default ContactPage

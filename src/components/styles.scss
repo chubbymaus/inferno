@@ -57,6 +57,14 @@ html {
   // padding-top: 150px;
 }
 
+#clearBG {
+  background-color: transparent !important;
+}
+
+#fullpage {
+  margin-top: -52px;
+}
+
 #services_section {
   background: url('../images/SVG/wave8.svg') no-repeat top center;
   -webkit-background-size: cover;
@@ -110,7 +118,7 @@ li {
 }
 
 #dots-section {
-  background-image: url("../images/subtle_dots.png");
+  background-image: url("../images/funky-lines.png");
   background-repeat: repeat;
 }
 

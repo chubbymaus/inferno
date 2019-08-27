@@ -40,7 +40,7 @@ class Navbar extends Component {
   render() {
     return (
       <div>
-        <nav className={this.state.navColor} id="clearBG">
+        <nav className={this.state.navColor}>
           <div className="container is-fluid">
             <div className="navbar-brand">
               <Link className="navbar-item" to="/">

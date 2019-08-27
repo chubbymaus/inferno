@@ -16,22 +16,20 @@ const ButtonGroup = styled.div`
 `
 const JumboContainer = styled.div`
   display: flex;
+  margin-top: 25%;
   flex-direction: row;
+  align-self: flex-end;
   justify-content: center;
-  align-content: center;
   @media only screen and (max-width: 600px) {
     flex-direction: column;
   }
 `
 
 const Jumbotron = () => (
-  <section
-    className="hero has-background-white is-fullheight is-bold"
-    id="jumbotron"
-  >
-    <div className="container is-fluid has-text-left">
+  <section className="hero is-fullheight is-bold" id="jumbotrn">
+    <div className="container is-flid has-text-left">
       <JumboContainer>
-        <div className="is-half hero-text">
+        <div className="hero-text">
           <h1 className="title has-text-primary has-text-weight-bold">
             Managing a website can be: <br />
             <Typed
@@ -58,9 +56,9 @@ const Jumbotron = () => (
             </Link>
           </ButtonGroup>
         </div>
-        <div className="is-half has-text-right" id="hero-image">
+        {/* <div className="is-one-third has-text-right" id="hero-image">
           <img src={HeroImage} alt="Hero" />
-        </div>
+        </div> */}
       </JumboContainer>
     </div>
   </section>

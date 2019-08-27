@@ -680,6 +680,14 @@
     core-js "^2.5.7"
     regenerator-runtime "^0.11.1"
 
+"@babel/polyfill@^7.2.5":
+  version "7.4.4"
+  resolved "https://registry.yarnpkg.com/@babel/polyfill/-/polyfill-7.4.4.tgz#78801cf3dbe657844eeabf31c1cae3828051e893"
+  integrity sha512-WlthFLfhQQhh+A2Gn5NSFl0Huxz36x86Jn+E9OW7ibK8edKPq+KLy4apM1yDpQ8kJOVi1OVjpP4vSDLdrI04dg==
+  dependencies:
+    core-js "^2.6.5"
+    regenerator-runtime "^0.13.2"
+
 "@babel/preset-env@^7.4.1":
   version "7.4.4"
   resolved "https://registry.yarnpkg.com/@babel/preset-env/-/preset-env-7.4.4.tgz#b6f6825bfb27b3e1394ca3de4f926482722c1d6f"
@@ -752,6 +760,13 @@
 "@babel/runtime@^7.4.2":
   version "7.4.4"
   resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.4.4.tgz#dc2e34982eb236803aa27a07fea6857af1b9171d"
+  dependencies:
+    regenerator-runtime "^0.13.2"
+
+"@babel/runtime@^7.5.5":
+  version "7.5.5"
+  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.5.5.tgz#74fba56d35efbeca444091c7850ccd494fd2f132"
+  integrity sha512-28QvEGyQyNkB0/m2B4FU7IEZGK2NUrcMtT6BZEFALTguLk+AUT6ofsHtPk5QyjAdUkpMJ+/Em+quwz4HOt30AQ==
   dependencies:
     regenerator-runtime "^0.13.2"
 
@@ -865,6 +880,14 @@
     humps "^2.0.1"
     prop-types "^15.5.10"
 
+"@fullpage/react-fullpage@^0.1.15":
+  version "0.1.15"
+  resolved "https://registry.yarnpkg.com/@fullpage/react-fullpage/-/react-fullpage-0.1.15.tgz#bd31218d5556ddcbd2a554a11b3961cc781a5938"
+  integrity sha512-gWZQtNimCo27F8qUUCbT2RCSKBkGNbEPoe9JlPchRywCKpypSt43UF6izJ9kUCARysX/vAYzELt6prqjv57M4g==
+  dependencies:
+    "@babel/polyfill" "^7.2.5"
+    fullpage.js "^3.0.7"
+
 "@gatsbyjs/relay-compiler@2.0.0-printer-fix.2":
   version "2.0.0-printer-fix.2"
   resolved "https://registry.yarnpkg.com/@gatsbyjs/relay-compiler/-/relay-compiler-2.0.0-printer-fix.2.tgz#214db0e6072d40ea78ad5fabdb49d56bc95f4e99"
@@ -931,6 +954,13 @@
 "@stefanprobst/lokijs@^1.5.6-b":
   version "1.5.6-b"
   resolved "https://registry.yarnpkg.com/@stefanprobst/lokijs/-/lokijs-1.5.6-b.tgz#6a36a86dbe132e702e6b15ffd3ce4139aebfe942"
+
+"@tanem/svg-injector@^8.0.25":
+  version "8.0.25"
+  resolved "https://registry.yarnpkg.com/@tanem/svg-injector/-/svg-injector-8.0.25.tgz#9ed7e6dc064f03bcd3680d80276677692d31ae2c"
+  integrity sha512-BP64LDRME16U9k/X3Bu0GCsoO/yqTQfNRt+FFwEwKOnGB1lcU2WoIZr3lpOTMFw0tkomHVt0HC+7OdPcN2ulZA==
+  dependencies:
+    "@babel/runtime" "^7.5.5"
 
 "@types/configstore@^2.1.1":
   version "2.1.1"
@@ -2894,6 +2924,11 @@ core-js@^2.4.0, core-js@^2.5.0, core-js@^2.5.7:
 core-js@^2.4.1:
   version "2.6.5"
   resolved "https://registry.yarnpkg.com/core-js/-/core-js-2.6.5.tgz#44bc8d249e7fb2ff5d00e0341a7ffb94fbf67895"
+
+core-js@^2.6.5:
+  version "2.6.9"
+  resolved "https://registry.yarnpkg.com/core-js/-/core-js-2.6.9.tgz#6b4b214620c834152e179323727fc19741b084f2"
+  integrity sha512-HOpZf6eXmnl7la+cUdMnLvUxKNqLUzJvgIziQ0DiF3JwSImNphIqdGqzj6hIKyX04MmV0poclQ7+wjWvxQyR2A==
 
 core-util-is@1.0.2, core-util-is@~1.0.0:
   version "1.0.2"
@@ -4914,6 +4949,11 @@ fstream@^1.0.0, fstream@^1.0.2:
     inherits "~2.0.0"
     mkdirp ">=0.5 0"
     rimraf "2"
+
+fullpage.js@^3.0.7:
+  version "3.0.7"
+  resolved "https://registry.yarnpkg.com/fullpage.js/-/fullpage.js-3.0.7.tgz#27d4815f39ad26019bf96dbc7644ac7ec6226f39"
+  integrity sha512-kKgwNWGUY/nMCMWuDJph2D4lSLmRqcEqD9zGR4no7e85sGLGUTdB5xWUUDZCXEp3nkPNVMOVJLFhJq5DbIY1UA==
 
 function-bind@^1.1.0, function-bind@^1.1.1:
   version "1.1.1"
@@ -9271,7 +9311,7 @@ prompts@^2.0.4:
     kleur "^3.0.2"
     sisteransi "^1.0.0"
 
-prop-types@^15.5.10, prop-types@^15.6.0:
+prop-types@^15.5.10, prop-types@^15.6.0, prop-types@^15.7.2:
   version "15.7.2"
   resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.7.2.tgz#52c41e75b8c87e72b9d9360e0206b99dcbffa6c5"
   dependencies:
@@ -9553,6 +9593,15 @@ react-side-effect@^1.1.0:
   dependencies:
     exenv "^1.2.1"
     shallowequal "^1.0.1"
+
+react-svg@^10.0.17:
+  version "10.0.17"
+  resolved "https://registry.yarnpkg.com/react-svg/-/react-svg-10.0.17.tgz#71848e04c6832c222b3f1e019ba34ca580373d2f"
+  integrity sha512-FTBKzPcDuDjRPF35HcJIoTOryd8QhFHwgb8YiBP0Ex/hnpa3U0sE6ZS6J5cMfn2kfm2EBspEUJRfArnF/Sk3MA==
+  dependencies:
+    "@babel/runtime" "^7.5.5"
+    "@tanem/svg-injector" "^8.0.25"
+    prop-types "^15.7.2"
 
 react-typed@^1.1.2:
   version "1.1.2"
