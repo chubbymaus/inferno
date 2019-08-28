@@ -1,7 +1,7 @@
-const path = require('path');
+const path = require("path")
 
-exports.createPages = ({graphql, actions}) => {
-  const { createPage } = actions;
+exports.createPages = ({ graphql, actions }) => {
+  const { createPage } = actions
   return new Promise((res, rej) => {
     graphql(`
       {
@@ -12,17 +12,33 @@ exports.createPages = ({graphql, actions}) => {
             }
           }
         }
-      }`).then(results => {
-            results.data.allContentfulBlog.edges.forEach(({node}) => {
-              createPage({
-                path: `blog/${node.slug}`,
-                component: path.resolve('./src/posts/PostPage.js'),
-                context: {
-                  slug: node.slug,
-                }
-              });
-            })
-            res();
-          })
-        });
       }
+    `).then(results => {
+      results.data.allContentfulBlog.edges.forEach(({ node }) => {
+        createPage({
+          path: `blog/${node.slug}`,
+          component: path.resolve("./src/posts/PostPage.js"),
+          context: {
+            slug: node.slug,
+          },
+        })
+      })
+      res()
+    })
+  })
+}
+
+exports.onCreateWebpackConfig = ({ actions, stage }) => {
+  if (stage === "build-html") {
+    actions.setWebpackConfig({
+      module: {
+        rules: [
+          {
+            test: /react-fullpage/,
+            use: ["null-loader"],
+          },
+        ],
+      },
+    })
+  }
+}
