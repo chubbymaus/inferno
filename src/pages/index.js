@@ -94,7 +94,9 @@ class App extends React.Component {
   }
 
   moveSectionDown() {
-    window.fullpage_api.moveSectionDown()
+    if (window) {
+      window.fullpage_api.moveSectionDown()
+    }
   }
 
   render() {
