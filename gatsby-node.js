@@ -27,18 +27,3 @@ exports.createPages = ({ graphql, actions }) => {
     })
   })
 }
-
-exports.onCreateWebpackConfig = ({ actions, stage }) => {
-  if (stage === "build-html") {
-    actions.setWebpackConfig({
-      module: {
-        rules: [
-          {
-            test: /react-fullpage/,
-            use: ["null-loader"],
-          },
-        ],
-      },
-    })
-  }
-}

@@ -7,8 +7,7 @@ import Jumbotron from "../components/Home/Jumbotron"
 // import Services from "../components/Home/Services"
 // import Hosting from "../components/Home/Hosting"
 import About from "../components/Home/About"
-import Computers from "../images/computers.png"
-import "fullpage.js/vendors/scrolloverflow" // Optional. When using scrollOverflow:true
+
 import ReactFullpage from "@fullpage/react-fullpage"
 
 const SEL = "custom-section"
