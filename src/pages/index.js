@@ -94,7 +94,7 @@ class App extends React.Component {
   }
 
   moveSectionDown() {
-    if (window) {
+    if (typeof window !== `undefined`) {
       window.fullpage_api.moveSectionDown()
     }
   }
