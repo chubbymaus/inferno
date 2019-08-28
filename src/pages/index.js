@@ -112,7 +112,7 @@ class App extends React.Component {
           // Required when using extensions
           pluginWrapper={pluginWrapper}
           // fullpage options
-          licenseKey={"YOUR_KEY_HERE"} // Get one from https://alvarotrigo.com/fullPage/pricing/
+          licenseKey={"Y5B29808C-3C1F4F18-A146AC19-C381C5B4"} // Get one from https://alvarotrigo.com/fullPage/pricing/
           navigation
           anchors={["about", "secondPage", "thirdPage"]}
           sectionSelector={SECTION_SEL}
@@ -132,7 +132,7 @@ class App extends React.Component {
               <div className={SEL} id="dots-section">
                 <About />
               </div>
-              <div className={SEL}>
+              <div className={SEL} id="utah">
                 <About />
               </div>
               {/* {fullpages.map(({ text }) => (
