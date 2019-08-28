@@ -1,5 +1,5 @@
 @import "custom";
-@import '../../node_modules/bulma/bulma.sass';
+@import "../../node_modules/bulma/bulma.sass";
 
 .blog-content {
   margin: 25px auto;
@@ -36,8 +36,6 @@ html {
   }
 }
 
-;
-
 #laptop_image {
   margin-top: 50px;
   margin-bottom: -15px;
@@ -48,33 +46,34 @@ html {
   max-height: 450px;
 }
 
-#jumbotron {
-  background: url('../images/SVG/wave3.svg') no-repeat bottom center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  // padding-top: 150px;
-}
+// #jumbotron {
+//   background: url('../images/SVG/wave3.svg') no-repeat bottom center;
+//   -webkit-background-size: cover;
+//   -moz-background-size: cover;
+//   -o-background-size: cover;
+//   background-size: cover;
+//   // padding-top: 150px;
+// }
 #utah {
-  background: url('../images/SVG/utah.svg') no-repeat bottom center;
+  background: url("../images/SVG/utah.svg") no-repeat bottom center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   // padding-top: 150px;
+  min-height: 750px;
 }
 
-#clearBG {
+.clearBG {
   background-color: transparent !important;
 }
 
-#fullpage {
-  margin-top: -52px;
+#jumbotron {
+  margin-top: -52px !important;
 }
 
 #services_section {
-  background: url('../images/SVG/wave8.svg') no-repeat top center;
+  background: url("../images/SVG/wave8.svg") no-repeat top center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -91,7 +90,8 @@ html {
   margin-bottom: 10px;
 }
 
-.card-content {}
+.card-content {
+}
 
 .shadowed {
   box-shadow: 0 2px 12px -1px rgba(0, 0, 0, 0.2);
@@ -100,18 +100,25 @@ html {
 .card {
   border-radius: 5px;
   box-shadow: 0 2px 12px -1px rgba(0, 0, 0, 0.2);
-  padding: 1em .35em;
-
+  padding: 1em 0.35em;
 }
 
 #wp-jumbo {
   background: rgb(3, 169, 244);
-  background: linear-gradient(155deg, rgba(3, 169, 244, 1) 50%, rgba(255, 255, 255, 1) 50%);
+  background: linear-gradient(
+    155deg,
+    rgba(3, 169, 244, 1) 50%,
+    rgba(255, 255, 255, 1) 50%
+  );
 }
 
 #infernotuts {
   background: rgb(255, 94, 94);
-  background: linear-gradient(135deg, rgba(3, 169, 244, 1) 28%, rgb(255, 94, 94) 28%);
+  background: linear-gradient(
+    135deg,
+    rgba(3, 169, 244, 1) 28%,
+    rgb(255, 94, 94) 28%
+  );
 }
 
 .content ul {
@@ -121,11 +128,11 @@ html {
 }
 
 li {
-  border-top: 1px solid rgba(0, 0, 0, .125);
+  border-top: 1px solid rgba(0, 0, 0, 0.125);
   padding: 5px;
 }
 
-#dots-section {
+.dots-section {
   background-image: url("../images/funky-lines.png");
   background-repeat: repeat;
 }
@@ -135,15 +142,15 @@ li {
 }
 
 .is-fixed-top {
-  -webkit-animation: fadein .25s;
+  -webkit-animation: fadein 0.25s;
   /* Safari, Chrome and Opera > 12.1 */
-  -moz-animation: fadein .25s;
+  -moz-animation: fadein 0.25s;
   /* Firefox < 16 */
-  -ms-animation: fadein .25s;
+  -ms-animation: fadein 0.25s;
   /* Internet Explorer */
-  -o-animation: fadein .25s;
+  -o-animation: fadein 0.25s;
   /* Opera < 12.1 */
-  animation: fadein .25s;
+  animation: fadein 0.25s;
 }
 
 @keyframes fadein {

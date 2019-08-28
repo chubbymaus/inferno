@@ -6,7 +6,7 @@ class Navbar extends Component {
   state = {
     menuOpen: false,
     isTop: true,
-    navColor: "navbar is-white",
+    navColor: "navbar clearBG",
     logo: Logo,
     mobile: "navbar-menu has-background-white has-text-primary",
     mobileToggle: "navbar-burger has-text-primary",
@@ -29,7 +29,7 @@ class Navbar extends Component {
         })
       } else {
         this.setState({
-          navColor: "navbar is-white ",
+          navColor: "navbar clearBG",
 
           mobile: "navbar-menu has-background-white has-text-primary",
           mobileToggle: "navbar-burger has-text-primary",

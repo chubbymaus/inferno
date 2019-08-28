@@ -25,8 +25,8 @@ const JumboContainer = styled.div`
   }
 `
 
-const Jumbotron = () => (
-  <section className="hero dots-section is-fullheight is-bold" id="jumbotron">
+const Contact = () => (
+  <section className="hero dots-section is-fullheight is-bold" id="utah">
     <div className="container is-flid has-text-left">
       <JumboContainer>
         <div className="hero-text">
@@ -64,4 +64,4 @@ const Jumbotron = () => (
   </section>
 )
 
-export default Jumbotron
+export default Contact
