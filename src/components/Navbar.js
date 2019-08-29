@@ -1,6 +1,6 @@
 import React, { Component } from "react"
 import Link from "gatsby-link"
-import Logo from "../images/infernoblue45.png"
+import Logo from "../images/infernodarkerblue45.png"
 
 class Navbar extends Component {
   state = {
@@ -8,8 +8,8 @@ class Navbar extends Component {
     isTop: true,
     navColor: "navbar clearBG",
     logo: Logo,
-    mobile: "navbar-menu has-background-white has-text-primary",
-    mobileToggle: "navbar-burger has-text-primary",
+    mobile: "navbar-menu has-background-white has-text-dark",
+    mobileToggle: "navbar-burger has-text-dark",
   }
 
   menuToggleClickHandler = () => {
@@ -24,15 +24,15 @@ class Navbar extends Component {
       if (isTop !== this.state.isTop) {
         this.setState({
           navColor: "navbar is-white is-fixed-top shadowed",
-          mobile: "navbar-menu has-background-white has-text-primary",
-          mobileToggle: "navbar-burger has-text-primary",
+          mobile: "navbar-menu has-background-white has-text-dark",
+          mobileToggle: "navbar-burger has-text-dark",
         })
       } else {
         this.setState({
           navColor: "navbar clearBG",
 
-          mobile: "navbar-menu has-background-white has-text-primary",
-          mobileToggle: "navbar-burger has-text-primary",
+          mobile: "navbar-menu has-background-white has-text-dark",
+          mobileToggle: "navbar-burger has-text-dark",
         })
       }
     })
@@ -73,12 +73,12 @@ class Navbar extends Component {
             >
               <div className="navbar-end is-primary">
                 <div className="navbar-item">
-                  <Link to="/" className="has-text-primary">
+                  <Link to="/" className="has-text-dark">
                     Home
                   </Link>
                 </div>
                 <div className="navbar-item">
-                  <Link to="/blog" className="has-text-primary">
+                  <Link to="/blog" className="has-text-dark">
                     Blog
                   </Link>
                 </div>

@@ -28,10 +28,10 @@ const ContactPage = () => (
             <div className="container">
               <div className="columns">
                 <HeroText className="column is-half">
-                  <h1 className="title has-text-primary">
+                  <h1 className="title has-text-dark">
                     Start your new site today!
                   </h1>
-                  <h2 className="subtitle has-text-primary">
+                  <h2 className="subtitle has-text-dark">
                     See the future of business collaboration and how it can make
                     your business faster, safer, and more transparent.
                   </h2>
@@ -39,7 +39,7 @@ const ContactPage = () => (
                 <div className="column is-half">
                   <div className="card shadowed">
                     <div className="card-content">
-                      <h1 className="title has-text-primary">
+                      <h1 className="title has-text-dark">
                         See how Inferno works.
                       </h1>
                       <form

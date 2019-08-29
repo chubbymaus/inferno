@@ -30,7 +30,7 @@ const Jumbotron = () => (
     <div className="container is-flid has-text-left">
       <JumboContainer>
         <div className="hero-text">
-          <h1 className="title has-text-primary has-text-weight-bold">
+          <h1 className="title has-text-dark has-text-weight-bold">
             Managing a website can be: <br />
             <Typed
               strings={["DIFFICULT", "TIME CONSUMING", "FRUSTRATING"]}
@@ -38,7 +38,7 @@ const Jumbotron = () => (
               backSpeed={60}
             />
           </h1>
-          <h2 className="has-text-weight-light subtitle has-text-primary">
+          <h2 className="has-text-weight-light subtitle has-text-dark">
             A Wordpress site built and hosted by Inferno makes everything
             easier.
           </h2>

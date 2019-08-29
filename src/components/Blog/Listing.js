@@ -28,7 +28,7 @@ const Listing = () => (
       allContentfulBlog.edges.map(edge => (
         <article key={edge.node.id}>
           <Link to={`/blog/${edge.node.slug}`}>
-            <h2 className="title has-text-primary">{edge.node.title}</h2>
+            <h2 className="title has-text-dark">{edge.node.title}</h2>
           </Link>
 
           <p>{edge.node.body.childMarkdownRemark.excerpt}</p>

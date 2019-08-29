@@ -17,8 +17,8 @@ const Services = () => (
         <div className="columns">
           <div className="column is-one-third">
             <div className="card has-background-white">
-              <div className="card-content has-text-primary">
-                <div className="title has-text-primary">
+              <div className="card-content has-text-dark">
+                <div className="title has-text-dark">
                   <FontAwesomeIcon
                     style={{ fontSize: "2rem" }}
                     icon={["far", "user-edit"]}
@@ -52,8 +52,8 @@ const Services = () => (
           </div>
           <div className="column is-one-third">
             <div className="card has-background-white">
-              <div className="card-content has-text-primary">
-                <div className="title has-text-primary">
+              <div className="card-content has-text-dark">
+                <div className="title has-text-dark">
                   <FontAwesomeIcon
                     style={{ fontSize: "2rem" }}
                     icon={["far", "store-alt"]}
@@ -86,8 +86,8 @@ const Services = () => (
           </div>
           <div className="column is-one-third">
             <div className="card shadowed has-background-white">
-              <div className="card-content has-text-primary">
-                <div className="title has-text-primary">
+              <div className="card-content has-text-dark">
+                <div className="title has-text-dark">
                   <FontAwesomeIcon
                     style={{ fontSize: "2rem" }}
                     icon={["far", "shopping-cart"]}
@@ -121,8 +121,8 @@ const Services = () => (
         <div className="columns">
           <div className="column ">
             <div className="card has-background-white">
-              <div className="card-content has-text-primary">
-                <div className="title has-text-primary">
+              <div className="card-content has-text-dark">
+                <div className="title has-text-dark">
                   <FontAwesomeIcon
                     style={{ fontSize: "2rem" }}
                     icon={["far", "server"]}

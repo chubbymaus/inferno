@@ -21,7 +21,7 @@ export default class PostLayout extends Component {
               />
               <br />
               <Link to="/blog" className="return-link">
-                <div className="subtitle has-text-primary">
+                <div className="subtitle has-text-dark">
                   <FontAwesomeIcon icon={["far", "arrow-left"]} />
                   <span> Back to blog post listing</span>
                 </div>
