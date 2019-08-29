@@ -3,7 +3,7 @@ import React from "react"
 
 import Layout from "../components/layout"
 import Jumbotron from "../components/Home/Jumbotron"
-import WhyWordpress from "../components/Home/WhyWordpress"
+import Ux from "../components/Home/Ux"
 import Services from "../components/Home/Services"
 import Hosting from "../components/Home/Hosting"
 import About from "../components/Home/About"
@@ -17,9 +17,8 @@ import Contact from "../components/Home/Contact"
 const IndexPage = () => (
   <Layout>
     <Jumbotron />
-    <WhyWordpress />
+    <Ux />
     <About />
-    {/* <LaptopMockup /> */}
     <Hosting />
     <Services />
     <Contact />

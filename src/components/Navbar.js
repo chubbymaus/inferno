@@ -94,7 +94,7 @@ class Navbar extends Component {
                 <div className="navbar-item">
                   <Link
                     to="/contact"
-                    className="button is-fullwidth is-info shadowed "
+                    className="button is-fullwidth is-info shaowed "
                   >
                     Say Hello...
                   </Link>

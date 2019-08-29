@@ -44,16 +44,16 @@ const Jumbotron = () => (
           </h2>
           <ButtonGroup>
             <a href="#about">
-              <div className="is-info jumbotron-button button first_button shadowed is-medium is-fullwidth">
+              <div className="is-dark jumbotron-button button first_button shaowed is-medium is-fullwidth">
                 Learn More
               </div>
             </a>
             <div>&nbsp;&nbsp;</div>
-            <Link to="/contact">
-              <div className="is-success shadowed jumbotron-button button is-medium is-fullwidth">
+            {/* <Link to="/contact">
+              <div className="is-link shaowed jumbotron-button button is-medium is-fullwidth">
                 Contact Us
               </div>
-            </Link>
+            </Link> */}
           </ButtonGroup>
         </div>
         {/* <div className="is-one-third has-text-right" id="hero-image">

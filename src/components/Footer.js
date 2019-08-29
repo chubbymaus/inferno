@@ -14,7 +14,7 @@ const FooterSection = styled.footer`
 `
 
 const Footer = () => (
-  <FooterSection className="section has-background-primary is-small has-text-centered">
+  <FooterSection className="section has-background-dark is-small has-text-centered">
     <div className="container is-narrow">
       <div className="logo"></div>
       <div className="columns has-text-white is-centered">
@@ -24,39 +24,10 @@ const Footer = () => (
           </h1>
         </div>
       </div>
-      <div className="columns has-text-white is-centered">
-        <div className="column is-half">
-          <h3 style={{ fontSize: "2rem" }}>
-            {/* <span>&nbsp;&nbsp;
-              <a href="https://www.behance.net/court090c">
-              <FontAwesomeIcon icon={['fab', 'youtube']} />
-              </a>
-            </span> */}
 
-            {/* <span>&nbsp;&nbsp;
-              <a href="https://angel.co/court-garr?public_profile=1">
-              <FontAwesomeIcon icon={['fab', 'angellist']} />
-              </a>
-            </span> */}
-            <span>
-              &nbsp;&nbsp;
-              <a href="https://twitter.com/SquiblyHQ">
-                <FontAwesomeIcon icon={["fab", "twitter"]} />
-              </a>
-            </span>
-            <span>
-              &nbsp;&nbsp;
-              <a href="https://www.linkedin.com/company/squibly/">
-                <FontAwesomeIcon icon={["fab", "linkedin-in"]} />
-              </a>
-            </span>
-          </h3>
-          <br />
-        </div>
-      </div>
       <p className="has-text-white">
         {" "}
-        &copy; {new Date().getFullYear()} Squibly
+        &copy; {new Date().getFullYear()} Inferno Apps
       </p>
     </div>
   </FooterSection>
