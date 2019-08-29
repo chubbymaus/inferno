@@ -18,8 +18,8 @@ const IndexPage = () => (
   <Layout>
     <Jumbotron />
     <Ux />
-    <About />
     <Hosting />
+    <About />
     <Services />
     <Contact />
   </Layout>

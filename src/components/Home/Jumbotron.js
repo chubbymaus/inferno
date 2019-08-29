@@ -27,7 +27,7 @@ const JumboContainer = styled.div`
 
 const Jumbotron = () => (
   <section className="hero dots-section is-fullheight is-bold" id="jumbotron">
-    <div className="container is-flid has-text-left">
+    <div className="container has-text-left">
       <JumboContainer>
         <div className="hero-text">
           <h1 className="title has-text-dark has-text-weight-bold">
@@ -41,21 +41,21 @@ const Jumbotron = () => (
             </span>
           </h1>
           <h2 className="has-text-weight-light subtitle has-text-dark">
-            A Wordpress site built and hosted by Inferno makes everything
-            easier.
+            Don't worry! We are here to make everything easier, faster, and
+            prettier.
           </h2>
           <ButtonGroup>
             <a href="#about">
-              <div className="is-dark jumbotron-button button first_button shaowed is-medium is-fullwidth">
+              <div className="is-dark jumbotron-button button first_button is-medium is-fullwidth">
                 Learn More
               </div>
             </a>
             <div>&nbsp;&nbsp;</div>
-            {/* <Link to="/contact">
-              <div className="is-link shaowed jumbotron-button button is-medium is-fullwidth">
+            <Link to="/contact">
+              <div className="is-dark is-outlined jumbotron-button button is-medium is-fullwidth">
                 Contact Us
               </div>
-            </Link> */}
+            </Link>
           </ButtonGroup>
         </div>
         {/* <div className="is-one-third has-text-right" id="hero-image">
