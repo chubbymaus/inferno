@@ -32,11 +32,13 @@ const Jumbotron = () => (
         <div className="hero-text">
           <h1 className="title has-text-dark has-text-weight-bold">
             Managing a website can be: <br />
-            <Typed
-              strings={["DIFFICULT", "TIME CONSUMING", "FRUSTRATING"]}
-              typeSpeed={60}
-              backSpeed={60}
-            />
+            <span className="half-highlight">
+              <Typed
+                strings={["DIFFICULT", "TIME CONSUMING", "FRUSTRATING"]}
+                typeSpeed={60}
+                backSpeed={60}
+              />
+            </span>
           </h1>
           <h2 className="has-text-weight-light subtitle has-text-dark">
             A Wordpress site built and hosted by Inferno makes everything

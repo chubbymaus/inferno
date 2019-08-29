@@ -25,7 +25,7 @@ const JumboContainer = styled.div`
 `
 
 const Jumbotron = () => (
-  <section className="hero has-background-info is-large is-bold" id="about">
+  <section className="hero has-background-dark is-large is-bold" id="about">
     <div className="container is-fluid has-text-left">
       <JumboContainer class="columns">
         <div className="column is-half" id="hero-image">
