@@ -1,5 +1,4 @@
 import React from "react"
-import Mockups from "../../images/infernomockups.png"
 import Link from "gatsby-link"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 

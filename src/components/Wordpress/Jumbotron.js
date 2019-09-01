@@ -1,7 +1,6 @@
 import React from "react"
 import Link from "gatsby-link"
 import styled from "styled-components"
-import HeroImage from "../../images/computers.png"
 import Typed from "react-typed"
 
 const ButtonGroup = styled.div`
@@ -54,9 +53,6 @@ const Jumbotron = () => (
               </div>
             </Link>
           </ButtonGroup>
-        </div>
-        <div className="is-half has-text-right" id="hero-image">
-          <img src={HeroImage} alt="Hero" />
         </div>
       </JumboContainer>
     </div>
