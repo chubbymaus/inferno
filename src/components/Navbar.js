@@ -1,6 +1,6 @@
 import React, { Component } from "react"
 import Link from "gatsby-link"
-import Logo from "../images/infernodarkerblue45.png"
+import Logo from "../images/infernodarkerblue.png"
 
 class Navbar extends Component {
   state = {
