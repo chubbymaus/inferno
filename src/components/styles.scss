@@ -45,14 +45,6 @@ html {
   max-height: 450px;
 }
 
-// #jumbotron {
-//   background: url('../images/SVG/wave3.svg') no-repeat bottom center;
-//   -webkit-background-size: cover;
-//   -moz-background-size: cover;
-//   -o-background-size: cover;
-//   background-size: cover;
-//   // padding-top: 150px;
-// }
 #utah {
   background: url("../images/SVG/utahdark.svg") no-repeat bottom center;
   -webkit-background-size: cover;
@@ -70,7 +62,6 @@ html {
 #jumbotron {
   margin-top: -52px !important;
 }
-
 
 #about {
   background: url("../images/SVG/lines.svg") no-repeat right center;
@@ -92,7 +83,8 @@ html {
   margin-bottom: 10px;
 }
 
-.card-content {}
+.card-content {
+}
 
 .shadowed {
   box-shadow: 0 2px 12px -1px rgba(0, 0, 0, 0.2);
@@ -106,16 +98,20 @@ html {
 
 #wp-jumbo {
   background: rgb(3, 169, 244);
-  background: linear-gradient(155deg,
-      rgba(3, 169, 244, 1) 50%,
-      rgba(255, 255, 255, 1) 50%);
+  background: linear-gradient(
+    155deg,
+    rgba(3, 169, 244, 1) 50%,
+    rgba(255, 255, 255, 1) 50%
+  );
 }
 
 #infernotuts {
   background: rgb(255, 94, 94);
-  background: linear-gradient(135deg,
-      rgba(3, 169, 244, 1) 28%,
-      rgb(255, 94, 94) 28%);
+  background: linear-gradient(
+    135deg,
+    rgba(3, 169, 244, 1) 28%,
+    rgb(255, 94, 94) 28%
+  );
 }
 
 .content ul {
@@ -143,15 +139,15 @@ li {
 }
 
 .half-highlight-alt {
-  background: linear-gradient(to top, #00BE7C 25%, transparent 25%);
+  background: linear-gradient(to top, #00be7c 25%, transparent 25%);
 }
 
 .half-highlight-link {
-  background: linear-gradient(to top, #6A80C4 25%, transparent 25%);
+  background: linear-gradient(to top, #6a80c4 25%, transparent 25%);
 }
 
 .half-highlight-danger {
-  background: linear-gradient(to top, #FF5e5e 25%, transparent 25%);
+  background: linear-gradient(to top, #ff5e5e 25%, transparent 25%);
 }
 
 .button {

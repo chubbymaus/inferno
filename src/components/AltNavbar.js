@@ -78,6 +78,11 @@ class Navbar extends Component {
                   </Link>
                 </div>
                 <div className="navbar-item">
+                  <Link to="/wordpress" className="has-text-dark">
+                    Wordpress Solutions
+                  </Link>
+                </div>
+                <div className="navbar-item">
                   <Link to="/blog" className="has-text-dark">
                     Blog
                   </Link>
