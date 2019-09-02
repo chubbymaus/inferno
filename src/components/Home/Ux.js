@@ -31,12 +31,6 @@ const Jumbotron = () => (
               Wordpress powers over 30% of all websites. Wordpress powers over
               30% of all websites. Wordpress powers over 30% of all websites.
             </h2>
-            <ul className="has-text-white">
-              <li>item</li>
-              <li>item</li>
-              <li>item</li>
-              <li>item</li>
-            </ul>
           </Fade>
         </div>
         <div className="column hero-text">
@@ -46,12 +40,6 @@ const Jumbotron = () => (
               Wordpress powers over 30% of all websites. Wordpress powers over
               30% of all websites. Wordpress powers over 30% of all websites.
             </h2>
-            <ul className="has-text-white">
-              <li>item</li>
-              <li>item</li>
-              <li>item</li>
-              <li>item</li>
-            </ul>
           </Fade>
         </div>
         <div className="column hero-text">
@@ -61,12 +49,6 @@ const Jumbotron = () => (
               Wordpress powers over 30% of all websites. Wordpress powers over
               30% of all websites. Wordpress powers over 30% of all websites.
             </h2>
-            <ul className="has-text-white">
-              <li>item</li>
-              <li>item</li>
-              <li>item</li>
-              <li>item</li>
-            </ul>
           </Fade>
         </div>
       </JumboContainer>
