@@ -2,22 +2,12 @@ import React from "react"
 import Link from "gatsby-link"
 import styled from "styled-components"
 
-const ButtonGroup = styled.div`
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-
-  @media only screen and (max-width: 600px) {
-    flex-direction: column;
-    width: 100%;
-  }
-`
 const JumboContainer = styled.div`
   display: flex;
-  margin-top: 25%;
+  margin-top: 10%;
   flex-direction: row;
   align-self: flex-end;
-  ${"" /* justify-content: center; */}
+  justify-content: center;
   @media only screen and (max-width: 600px) {
     flex-direction: column;
   }
@@ -26,11 +16,11 @@ const JumboContainer = styled.div`
 const Contact = () => (
   <section className="hero dots-section is-fullheight is-bold">
     <div className="container has-text-left">
-      <JumboContainer>
-        <h1 className="title has-text-left has-text-dark">
-          <span className="half-highlight-danger">Located In Utah</span>
-        </h1>
-        <div className="hero-text">
+      <JumboContainer className="columns">
+        <div className="hero-text column">
+          <h1 className="title has-text-left has-text-dark">
+            <span className="half-highlight-danger">Located In Utah</span>
+          </h1>
           <h1 className="title has-text-dark has-text-weight-bold">
             Managing a website can be: <br />
           </h1>
@@ -38,23 +28,75 @@ const Contact = () => (
             A Wordpress site built and hosted by Inferno makes everything
             easier.
           </h2>
-          <ButtonGroup>
-            <a href="#about">
-              <div className="is-info jumbotron-button button first_button shadowed is-medium is-fullwidth">
-                Learn More
-              </div>
-            </a>
-            <div>&nbsp;&nbsp;</div>
-            <Link to="/contact">
-              <div className="is-success shadowed jumbotron-button button is-medium is-fullwidth">
-                Contact Us
-              </div>
-            </Link>
-          </ButtonGroup>
         </div>
-        {/* <div className="is-one-third has-text-right" id="hero-image">
-          <img src={HeroImage} alt="Hero" />
-        </div> */}
+        <div className="column">
+          <div className="card shadowed">
+            <div className="card-content">
+              <h1 className="title has-text-dark">See how Inferno works.</h1>
+              <form
+                name="contact"
+                method="POST"
+                data-netlify="true"
+                data-netlify-honeypot="bot-field"
+              >
+                <input type="hidden" name="form-name" value="contact" />
+                <input type="hidden" name="bot-field" />
+                <div className="field is-grouped">
+                  <div className="control is-expanded">
+                    <input
+                      className="input"
+                      type="text"
+                      name="fullName"
+                      placeholder="Name"
+                    />
+                  </div>
+                </div>
+
+                <div className="field">
+                  <div className="control is-expanded">
+                    <input
+                      className="input"
+                      type="email"
+                      name="email"
+                      placeholder="Email"
+                    />
+                  </div>
+                </div>
+                <div className="field is-grouped">
+                  <div className="control is-expanded">
+                    <input
+                      className="input"
+                      type="tel"
+                      name="phoneNumber"
+                      placeholder="Phone"
+                    />
+                  </div>
+                </div>
+
+                <div className="field">
+                  <div className="control">
+                    <textarea
+                      className="textarea"
+                      name="message"
+                      placeholder="Message"
+                    />
+                  </div>
+                </div>
+
+                <div className="field">
+                  <p className="control">
+                    <button
+                      className="button is-dark shadowed is-medium is-fullwidth"
+                      type="submit"
+                    >
+                      Submit
+                    </button>
+                  </p>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
       </JumboContainer>
     </div>
   </section>

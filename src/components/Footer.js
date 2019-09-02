@@ -11,27 +11,20 @@ const FooterSection = styled.footer`
   a:hover {
     color: #22a0f3;
   }
+  .section {
+    padding: 1rem 1rem;
+  }
 `
 
 const Footer = () => (
-  <FooterSection
-    className="section has-background-info is-small has-text-centered"
-    id="utah"
-  >
-    <div className="container is-narrow">
-      <div className="logo"></div>
-      <div className="columns has-text-white is-centered">
-        <div className="column is-half">
-          <h1 className="title has-text-white ">
-            Securing workplace collaboration one user at a time!
-          </h1>
-        </div>
+  <FooterSection>
+    <div className="section has-background-dark  has-text-left">
+      <div className="container is-narrow">
+        <p className="has-text-white">
+          {" "}
+          &copy; {new Date().getFullYear()} InfernoApps
+        </p>
       </div>
-
-      <p className="has-text-white">
-        {" "}
-        &copy; {new Date().getFullYear()} Inferno Apps
-      </p>
     </div>
   </FooterSection>
 )

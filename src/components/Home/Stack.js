@@ -22,30 +22,36 @@ const Stack = () => (
     <div className="container has-text-left">
       <JumboContainer class="columns">
         <div className="column hero-text has-text-dark columns">
-          <Fade bottom duration={1600}>
-            <div className="column is-haf">
-              <FontAwesomeIcon
-                icon={["fab", "react"]}
-                style={{ fontSize: "12rem" }}
-              />
-              &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-              <FontAwesomeIcon
-                icon={["fab", "node-js"]}
-                style={{ fontSize: "12rem" }}
-              />
-            </div>
-            <div className="column has-text-center">
-              <FontAwesomeIcon
-                icon={["fab", "docker"]}
-                style={{ fontSize: "12rem" }}
-              />
-              &nbsp;
-              <FontAwesomeIcon
-                icon={["fab", "linux"]}
-                style={{ fontSize: "12rem" }}
-              />
-            </div>
-          </Fade>
+          <div className="column">
+            <Fade bottom duration={800}>
+              <div>
+                <FontAwesomeIcon
+                  icon={["fab", "react"]}
+                  style={{ fontSize: "12rem" }}
+                />
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                <FontAwesomeIcon
+                  icon={["fab", "node-js"]}
+                  style={{ fontSize: "12rem" }}
+                />
+              </div>
+            </Fade>
+          </div>
+          <div className="column has-text-center">
+            <Fade bottom duration={1200}>
+              <div>
+                <FontAwesomeIcon
+                  icon={["fab", "docker"]}
+                  style={{ fontSize: "12rem" }}
+                />
+                &nbsp;
+                <FontAwesomeIcon
+                  icon={["fab", "linux"]}
+                  style={{ fontSize: "12rem" }}
+                />
+              </div>
+            </Fade>
+          </div>
         </div>
         <div className="column hero-text">
           <h1 className="title has-text-dark  has-text-weight-bold">
@@ -57,15 +63,6 @@ const Stack = () => (
               Wordpress powers over 30% of all websites. Wordpress powers over
               30% of all websites. Wordpress powers over 30% of all websites.
             </h2>
-            <Link to="/wordpress">
-              <div className="is-dark is-outlined jumbotron-button button is-medium">
-                Wordpress &nbsp;
-                <FontAwesomeIcon
-                  className="arrow-right"
-                  icon={["fab", "react"]}
-                />
-              </div>
-            </Link>
           </Fade>
         </div>
       </JumboContainer>
