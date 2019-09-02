@@ -14,7 +14,10 @@ const FooterSection = styled.footer`
 `
 
 const Footer = () => (
-  <FooterSection className="section has-background-dark is-small has-text-centered">
+  <FooterSection
+    className="section has-background-info is-small has-text-centered"
+    id="utah"
+  >
     <div className="container is-narrow">
       <div className="logo"></div>
       <div className="columns has-text-white is-centered">

@@ -1,7 +1,6 @@
 import React from "react"
 import Link from "gatsby-link"
 import styled from "styled-components"
-import Typed from "react-typed"
 
 const ButtonGroup = styled.div`
   display: flex;
@@ -18,24 +17,22 @@ const JumboContainer = styled.div`
   margin-top: 25%;
   flex-direction: row;
   align-self: flex-end;
-  justify-content: center;
+  ${"" /* justify-content: center; */}
   @media only screen and (max-width: 600px) {
     flex-direction: column;
   }
 `
 
 const Contact = () => (
-  <section className="hero dots-section is-fullheight is-bold" id="utah">
-    <div className="container is-flid has-text-left">
+  <section className="hero dots-section is-fullheight is-bold">
+    <div className="container has-text-left">
       <JumboContainer>
+        <h1 className="title has-text-left has-text-dark">
+          <span className="half-highlight-danger">Located In Utah</span>
+        </h1>
         <div className="hero-text">
           <h1 className="title has-text-dark has-text-weight-bold">
             Managing a website can be: <br />
-            <Typed
-              strings={["DIFFICULT", "TIME CONSUMING", "FRUSTRATING"]}
-              typeSpeed={60}
-              backSpeed={60}
-            />
           </h1>
           <h2 className="has-text-weight-light subtitle has-text-dark">
             A Wordpress site built and hosted by Inferno makes everything

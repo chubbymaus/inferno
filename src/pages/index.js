@@ -5,8 +5,8 @@ import Layout from "../components/layout"
 import Jumbotron from "../components/Home/Jumbotron"
 import Ux from "../components/Home/Ux"
 import Services from "../components/Home/Services"
-import Hosting from "../components/Home/Hosting"
-import About from "../components/Home/About"
+import Stack from "../components/Home/Stack"
+import Wordpress from "../components/Home/Wordpress"
 import Contact from "../components/Home/Contact"
 
 // if (typeof window !== 'undefined') {
@@ -18,9 +18,9 @@ const IndexPage = () => (
   <Layout>
     <Jumbotron />
     <Ux />
-    <Hosting />
-    <About />
-    <Services />
+    <Stack />
+    <Wordpress />
+    {/* <Services /> */}
     <Contact />
   </Layout>
 )
