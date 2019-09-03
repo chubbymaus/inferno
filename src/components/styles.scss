@@ -83,8 +83,7 @@ html {
   margin-bottom: 10px;
 }
 
-.card-content {
-}
+.card-content {}
 
 .shadowed {
   box-shadow: 0 2px 12px -1px rgba(0, 0, 0, 0.2);
@@ -98,20 +97,16 @@ html {
 
 #wp-jumbo {
   background: rgb(3, 169, 244);
-  background: linear-gradient(
-    155deg,
-    rgba(3, 169, 244, 1) 50%,
-    rgba(255, 255, 255, 1) 50%
-  );
+  background: linear-gradient(90deg,
+      #303030 50%,
+      rgba(255, 255, 255, 1) 50%);
 }
 
 #infernotuts {
   background: rgb(255, 94, 94);
-  background: linear-gradient(
-    135deg,
-    rgba(3, 169, 244, 1) 28%,
-    rgb(255, 94, 94) 28%
-  );
+  background: linear-gradient(135deg,
+      rgba(3, 169, 244, 1) 28%,
+      rgb(255, 94, 94) 28%);
 }
 
 .content ul {
@@ -126,6 +121,11 @@ li {
 }
 
 .dots-section {
+  background-image: url("../images/subtle_dots.png");
+  background-repeat: repeat;
+}
+
+.lines-section {
   background-image: url("../images/funky-lines.png");
   background-repeat: repeat;
 }

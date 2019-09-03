@@ -25,7 +25,7 @@ const JumboContainer = styled.div`
 `
 
 const Jumbotron = () => (
-  <section className="hero dots-section is-fullheight is-bold" id="jumbotron">
+  <section className="hero lines-section is-fullheight is-bold" id="jumbotron">
     <div className="container has-text-left">
       <JumboContainer>
         <div className="hero-text">

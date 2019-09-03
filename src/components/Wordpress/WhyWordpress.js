@@ -35,7 +35,7 @@ const Jumbotron = () => (
           />
         </div>
         <div className="column is-half hero-text">
-          <h1 className="title has-text-dark has-text-weight-bold">
+          <h1 className="title has-text-info has-text-weight-bold">
             Why Wordpress?
           </h1>
           <h2 className="has-text-weight-light subtitle has-text-dark">
@@ -63,10 +63,10 @@ const Jumbotron = () => (
     <div className="container is-fluid has-text-left">
       <JumboContainer class="columns">
         <div className="column is-half hero-text">
-          <h1 className="title has-text-dark has-text-weight-bold">
+          <h1 className="title has-text-white has-text-weight-bold">
             InfernoTuts
           </h1>
-          <h2 className="has-text-weight-light subtitle has-text-dark">
+          <h2 className="has-text-weight-light subtitle has-text-white">
             Wordpress powers over 30% of all websites. Wordpress powers over 30%
             of all websites. Wordpress powers over 30% of all websites.
             Wordpress powers over 30% of all websites. Wordpress powers over 30%

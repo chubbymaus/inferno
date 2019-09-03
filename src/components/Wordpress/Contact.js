@@ -14,7 +14,7 @@ const JumboContainer = styled.div`
 `
 
 const Contact = () => (
-  <section className="hero lines-section is-fullheight is-bold">
+  <section className="hero dots-section is-fullheight is-bold">
     <div className="container has-text-left">
       <JumboContainer className="columns">
         <div className="hero-text column">
