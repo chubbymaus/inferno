@@ -33,7 +33,7 @@ const Wordpress = () => (
             </h2>
             <Link to="/wordpress">
               <div className="is-white is-outlined jumbotron-button button is-medium">
-                Wordpress &nbsp;
+                More About Wordpress &nbsp;
                 <FontAwesomeIcon
                   className="arrow-right"
                   icon={["far", "angle-right"]}

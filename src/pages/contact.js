@@ -23,7 +23,7 @@ const ContactPage = () => (
         <JumboContainer className="columns">
           <div className="hero-text column">
             <h1 className="title has-text-left has-text-dark">
-              <span className="half-highlight-danger">Located In Utah</span>
+              <span className="half-highlight">Located In Utah</span>
             </h1>
             <h1 className="title has-text-dark has-text-weight-bold">
               Managing a website can be: <br />
