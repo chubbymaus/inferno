@@ -19,8 +19,8 @@ const JumboContainer = styled.div`
   display: flex;
   margin-top: 10%;
   flex-direction: row;
-  align-self: center;
-  justify-content: center;
+  align-self: space-around;
+  justify-content: space-around;
   @media only screen and (max-width: 600px) {
     flex-direction: column;
   }
@@ -46,8 +46,7 @@ const Jumbotron = () => (
             </span>
           </h1>
           <h2 className="has-text-weight-light subtitle has-text-dark">
-            Don't worry! We are here to make everything easier, faster, and
-            prettier.
+            Don't worry! We are here to make everything easy.
           </h2>
           <ButtonGroup>
             <a href="#about">
@@ -66,7 +65,7 @@ const Jumbotron = () => (
         <Fade right>
           <FontAwesomeIcon
             icon={["fab", "wordpress"]}
-            style={{ fontSize: "30rem" }}
+            style={{ fontSize: "25rem" }}
             className="has-text-dark"
           />
         </Fade>
